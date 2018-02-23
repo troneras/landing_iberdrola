@@ -1,6 +1,6 @@
 html, body{
 	font-family: 'Lato', sans-serif;
-	font-size: 14px;
+	font-size: 24px;
 	color: #4A4A4A;
 }
 
@@ -417,7 +417,7 @@ footer p{
 @media only screen and (min-width: 768px) {
 	html, body{
 		font-family: 'Lato', sans-serif;
-		font-size: 16px;
+		font-size: 24px;
 	}
 	h1 {
 		font-size: 3.125em;
@@ -443,8 +443,7 @@ footer p{
 
 	}
 	#logo-title img{
-		margin-top: 2em;
-		max-width: 18rem
+		max-height: 220px;
 	}
 	#title ul {
 		padding-left: 0.5rem;
@@ -467,11 +466,7 @@ footer p{
 		padding-bottom: 5em;
 	}
 
-	/* ==== HEADER ==== */
-	.header img{
-		content: url('../image/Menu2.png');
-		width: 100%;
-	}
+	
 }
 
 @media only screen and (min-width: 1024px) {
@@ -631,13 +626,14 @@ footer p{
 		margin-bottom: 3em;
 	}
 
-		#logo-title {
+	#logo-title {
 		background-image: none;
 	}
+
 	#title {
 		background-image: url('../image/bg_header_xl.png');
 		background-repeat: no-repeat;
-		background-size: auto 75%;
+		background-size: 80%;
 		background-position:left top;
 
 		min-height: 150px;
@@ -659,10 +655,18 @@ footer p{
 		margin-top: 4em;
 	}
 
+	/* ==== HEADER ==== */
+	.header img{
+		content: url('../image/Menu2.png');
+		width: 100%;
+	}
+
 }
 
 @media only screen and (min-width: 1280px) {
-	
+	html, body{
+		font-size: 16px;
+	}
 	#logo-title {
 		background-image: none;
 	}
