@@ -1,0 +1,683 @@
+html, body{
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	color: #4A4A4A;
+}
+
+h1 {
+	font-size: 1.78em; /* 25px*/
+}
+h2 {
+	font-size: 1.3em; /* 18px*/
+}
+p {
+	font-size: 1em;
+	line-height: 1.71em; /* 24px */
+}
+ul {
+	list-style: none;
+}
+
+a{
+	color: inherit;
+	font-weight: bold;
+	text-decoration: none !important;
+}
+
+.layout {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.page {
+    z-index: 0;
+    background: #fff;
+}
+
+.wrap {
+	box-sizing: border-box;
+    max-width: 100em;
+    margin: 0 auto;
+}
+.container-fluid {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.page-section {
+	padding-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+
+/* ======= SECTION CONTRATACION ====== */
+#contratacion {
+	background-color: #8ABD37;
+	color: #fff;
+	margin-top: 4.5rem;
+	padding-bottom: 0.5rem;
+	padding-top: 0rem;
+	text-align: center;
+	margin-bottom: 0;
+}
+#contratacion .row{
+	max-width: 23.5rem;
+	margin: 1.3rem auto;
+}
+#piquito {
+  width: 100px;
+  /*height: 1.3vw;*/
+  height: 24px;
+  /* set height to pixels if you want angle to change with screen width */
+}
+#contratacion .row div h1{
+	text-align: center;
+	margin-top: 0rem;
+	margin-bottom: 2rem;
+}
+#contratacion .row div h2{
+	padding-top: 0px;
+	margin-top: 1.4em;
+	margin-bottom: 0px;
+}
+#contratacion .row div h2 span{
+	display: inline-block;
+}
+.contratacion-image{
+	width: 7.5rem;
+
+}
+#contratacion .row div h2, #contratacion .row div p{
+	text-align: center;
+}
+#preguntas-frecuentes{
+  
+  -webkit-border-radius: 1.75rem;
+  -moz-border-radius: 1.75rem;
+  border-radius: 1.75rem;
+  font-size: 1em;
+  font-weight: bold;
+  line-height: 2.6em;
+  background: #8ABD37;
+  padding: 0.3em 1.25em 0.3em 1.25em;
+  border: solid #ffffff 2px;
+  text-decoration: none;	
+}
+
+#preguntas-frecuentes span{
+	padding-left: 2.5em;
+	padding-right: 1.3em;
+}
+
+/*  ===== SECTION APLICACIONES ====== */
+#smart-mobility {
+	position: relative;
+	background-image: url('../image/forma_1.svg');
+	background-repeat: no-repeat;
+	background-position: relative;
+    background-size: contain;
+}
+#recarga-publica {
+	position: relative;
+	background-image: url('../image/forma_2.svg');
+	background-repeat: no-repeat;
+	background-position: right;
+    background-size: contain;
+
+}
+#aplicaciones {
+	text-align: center;
+}
+#aplicaciones p{
+	line-height: 1.43em;
+}
+#aplicaciones-title, #smart-mobility .row, #recarga-publica .row{
+	max-width: 20rem;
+	margin: 0 auto;
+}
+#aplicaciones-title,#smart-mobility {
+	margin-bottom: 2.35em;
+}
+#aplicaciones-title div h1{
+	margin-bottom: 0;
+}
+.ico-google, #ico-apple{
+	max-width: 8.28rem;
+	margin-top:1em;
+}
+#ico-apple{
+	padding-left: 0.6em;
+}
+.celular{
+	max-width: 9.28em;
+}
+
+/* ======= VEHICULO ELECTRICO ======*/
+#electrico {
+	text-align: center;
+	margin-bottom: 0px;
+}
+#electrico p{
+	margin-bottom: 2.2em;
+	margin-top: 0em;
+}
+
+#texto-electrico{
+	max-width: 22rem;
+	margin: 0 auto;
+	text-align: left;
+}
+#texto-electrico h1{
+	margin-top: 2.2rem;
+	margin-bottom: 2.2rem;
+}
+#saber-mas{  
+  -webkit-border-radius: 1.75rem;
+  -moz-border-radius: 1.75rem;
+  border-radius: 1.75rem;
+  font-size: 1em;
+  font-weight: bold;
+  line-height: 2.6em;
+  background: #D86600;
+  padding: 0.4em 1.25em 0.4em 1.25em;
+  border: solid #ffffff 2px;
+  text-decoration: none;	
+  color: #fff;
+  text-align: center;
+}
+
+
+#saber-mas img{
+	position: relative;
+	right: -5em;
+
+	margin-bottom: -0.2em;
+}
+#image-electrico{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+#image-electrico img{
+	width: 100%;
+}
+
+/* ======= RECARGA ====== */
+#precios-recarga div span{
+	font-size: 1.3em;
+	font-weight: bold;
+	padding-right: 1.2rem;
+	color: #707070;
+}
+#precios-recarga div img{
+	margin-bottom: -0.61rem;
+}
+#precios-recarga {
+	cursor: pointer;
+}
+#recarga .row{
+	max-width: 20rem;
+	margin: 0 auto;
+}
+#title-recarga{
+	width: 23rem;
+}
+#title-recarga div h2{
+	font-weight: normal;
+	font-size: 1.14em;
+}
+#dispositivos {
+	max-width: 100% !important;
+	display: none;
+}
+#dispositivos .row{
+	text-align: center;
+	margin-top: 2em !important;
+}
+#pulsar {
+	position: relative;
+	background-image: url('../image/forma_3.svg');
+	background-repeat: no-repeat;
+	background-position: right;
+    background-size: contain;
+    padding-top: 16em;
+	margin-top: -16em;
+	padding-bottom: 0em;
+	margin-bottom: -0em;
+
+	z-index: 0;
+}
+#commander{
+	position: relative;
+	background-image: url('../image/forma_4.svg');
+	background-repeat: no-repeat;
+	background-position: left;
+    background-size: contain;
+    padding-top: 0em;
+	margin-top: -0em;
+	padding-bottom: 7em;
+	margin-bottom: -7em;
+
+	z-index: 0;
+}
+
+/* === SECTION MOVILIDAD ==== */
+#movilidad{
+	background-color: #DBDBDB;	
+	padding-bottom: 1em;
+	margin-bottom: 0;
+}
+#movilidad h3 {
+	font-size: 1.28em; /*24 px*/
+}
+#movilidad li{
+	font-size: 1.14em;
+	line-height: 1.71em;
+}
+
+#icons-movilidad > div{
+	margin-top: 2rem;
+}
+#icons-movilidad ul {
+	margin-top: -3px;
+	padding-left: 0;
+	margin-top: -0.57rem;
+}
+#movilidad span {
+	display: block;
+	font-size: 0.64em;
+	margin-bottom: 1.14em;
+}
+
+/* ===== SECTION TITLE ==== */
+#title ul {
+	padding-left: 0.5rem;
+}
+#title li {
+	padding-top: 1.4rem;
+	list-style: none;
+}
+#title li:first-child {
+	padding-top: 0;
+}
+#title span{
+	display: block;
+	font-size: 1rem;
+	margin-left: -0.4rem;
+}
+#texto-title {
+	max-width: 80%;
+	margin: 0 auto;
+}
+#logo-title{
+	background-image: url('../image/bg_header_xl.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position:left bottom;
+
+	min-height: 150px;
+	/*background-position-y: -3.2em;*/
+	max-height: 300px;
+}
+#logo-title img{
+	max-width: 90%;
+	margin-top: 50%;
+}
+
+/* ======= FOOTER ======= */
+footer{
+	text-align: center;
+}
+#links-footer {
+	margin-top: 2em;
+	padding-bottom: 6em;
+	font-size: 0.8em;
+}
+#links-footer li{
+	float: left;
+	list-style: none;
+}
+#social-footer {
+	padding-left: 0;
+	margin: 0 auto;
+	display: inline-block;
+}
+#social-footer li{
+	list-style: none;
+	text-align: left;
+	display: flex;
+	height: 32px;
+	padding-bottom: 6px;
+}
+#social-footer a{
+	padding-top: 5px;
+	padding-left: 10px;
+	justify-content: center;
+
+
+}
+#social-footer img {
+	display: inline-block;
+}
+
+#comments{
+	color: #b7b7b7;
+}
+#footer-top{
+	background-color: #4c5342;
+	color:  #fff;
+	margin: 0 0;
+}
+footer p{
+	color: #b7b7b7;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+#footer-bottom {
+	background-color: #303923;
+	color: #B5B5B5;
+	min-height: 125px;
+	margin: 0 0;
+}
+#footer-top {
+	padding-bottom: 2em;
+}
+#copyright p{
+	font-size: 0.9em;
+	margin-top: 0;
+}
+#stores-icons {
+	display: none;
+	text-align: left;
+}
+#stores-icons ul {
+	padding-left: 0;
+}
+#stores-icons li{
+	display: inline-block;
+	margin-right: 1.5em;
+}
+.link-externo{
+	color: white;
+}
+#links-footer a{
+	padding-left: 0.25em;
+	padding-right: 0.25em;
+}
+
+/* ==== HEADER ==== */
+.header img{
+	content: url('../image/Menu.png');
+	width: 100%;
+}
+#title{
+	padding-top: 0;
+}
+
+@media only screen and (min-width: 768px) {
+	html, body{
+		font-family: 'Lato', sans-serif;
+		font-size: 16px;
+	}
+	h1 {
+		font-size: 3.125em;
+	}
+	h2 {
+		font-size: 1.5em;
+	}
+	p {
+		font-size: 1em;
+		line-height: 1.5em;
+	}	
+
+	/* == TITLE ==*/
+	#logo-title{
+		background-image: url('../image/bg_header_xl.png');
+
+		min-height: 150px;
+
+	}
+		/* == TITLE ==*/
+	#logo-title{
+		/*background-image: none;*/
+
+	}
+	#logo-title img{
+		margin-top: 2em;
+		max-width: 18rem
+	}
+	#title ul {
+		padding-left: 0.5rem;
+	}
+	#title li {
+		padding-top: 1.4rem;
+		list-style: none;
+	}
+	#title li:first-child {
+		padding-top: 0;
+	}
+	#title span{
+		display: block;
+		font-size: 1rem;
+		margin-left: -0.4rem;
+	}
+
+	#texto-title div {
+		max-width: 37rem;
+		padding-bottom: 5em;
+	}
+
+	/* ==== HEADER ==== */
+	.header img{
+		content: url('../image/Menu2.png');
+		width: 100%;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	/* ==== VEHICULO ELECTRICO ==== */
+	#texto-electrico{
+		max-width: 28.4rem;
+		margin: 0 auto;
+		text-align: left;
+	}
+	#texto-electrico h1{
+		/*margin-top: 0rem;*/
+		line-height: 53px;
+		margin-bottom: 2.2rem;
+		font-size: 2.51rem;
+	}
+	#saber-mas {
+		max-width: 16rem;
+	}
+	#saber-mas img{
+		right: -3em;
+	}
+
+
+	#electrico .row{
+		margin-right: 0px !important;
+		margin-left: 0px !important;
+	}
+
+	/* === APLICACIONES === */
+	#aplicaciones {
+		text-align: left;
+		font-size: 15px;
+	}
+	#aplicaciones p{
+		line-height: 1.6em;
+		padding-bottom: 1em;
+	}
+	#aplicaciones h1{
+		font-size: 2.81em;	
+	}
+	#aplicaciones-title{
+		max-width: 100%;
+		margin: 0 auto;
+	}
+	#smart-mobility .row, #recarga-publica .row{
+		max-width: 21.9rem;
+		margin: 0 auto;
+	}
+	.celular{
+		max-width: 18em;
+		margin-left: -1.4em;
+	}
+	#aplicaciones-title,#smart-mobility {
+		margin-bottom: 5.87em;
+	}
+	#recarga-publica{
+		margin-top: 6.88em
+	}
+
+
+	/* === CONTRATACION === */
+	#contratacion .row{
+		max-width: 62.5rem;
+		margin: 1.3rem auto;
+	}
+	#contratacion .row div h2{
+		margin-top: 0em;
+	}
+	#contratacion .row div h2, #contratacion .row div p{
+		text-align: left;
+	}
+
+	/* ======= RECARGA ====== */
+	#precios-recarga div span{
+		font-size: 1.3em;
+		font-weight: bold;
+		padding-right: 1.2rem;
+		color: #707070;
+	}
+	#precios-recarga div img{
+		margin-bottom: -0.61rem;
+	}
+	#precios-recarga {
+		z-index: 9999;
+		
+	}
+	#title-recarga{
+		width: 100%;
+	}
+	#recarga .row{
+		max-width: 100%;
+		margin: 0 auto;
+	}
+	#title-recarga div h2{
+		font-weight: normal;
+	}
+	#dispositivos {
+		max-width: 100% !important;
+		display: inline-flex;
+	}
+	#dispositivos .row{
+		text-align: left;
+		width: 32rem;
+		margin-top: 2em !important;
+	}
+	
+	#precios-recarga{
+		position: relative;
+		z-index: 9;
+		padding-bottom: 3.43em;
+		padding-top: 3em;
+	}
+
+	#pulsar {
+		position: relative;
+		background-image: url('../image/triangle2.svg');
+		background-repeat: no-repeat;
+		background-position: right;
+	    background-size: initial;
+		padding-top: 19em;
+		margin-top: -19em;
+		padding-bottom: 28em;
+		margin-bottom: -28em;
+
+		z-index: 0;
+	}
+	#commander{
+		position: relative;
+		background-image: url('../image/triangle1.svg');
+		background-repeat: no-repeat;
+		background-position: left;
+	    background-size: initial;
+		padding-top: 17em;
+		margin-top: -10em;
+		padding-bottom: 28em;
+		margin-bottom: -28em;
+		/*background-size: 40%;*/
+
+	}
+	#copper {
+		margin-top: 7em;
+	}
+	
+	/* ==== MOVILIDAD ===== */
+	#movilidad h1 {
+		font-size: 2.81em;
+	}
+	#movilidad h2 {
+		font-size: 2.25em; /*30px*/
+	}
+	#movilidad h3 {
+		font-size: 1.5em; /*24 px*/
+	}
+	#movilidad span {
+		font-size: 0.64em;
+		margin-top: 5em;
+		margin-bottom: 3em;
+	}
+
+		#logo-title {
+		background-image: none;
+	}
+	#title {
+		background-image: url('../image/bg_header_xl.png');
+		background-repeat: no-repeat;
+		background-size: auto 75%;
+		background-position:left top;
+
+		min-height: 150px;
+		/*background-position-y: -3.2em;*/		
+	}
+	
+	/* ==== FOOTER ====*/
+	#stores-icons {
+		display: block;
+	}
+	#copyright img{
+		margin-top: 2em;
+	}
+	#copyright p{
+		font-size: 0.7em;
+	}
+	#links-footer {
+		padding-bottom: 0em;
+		margin-top: 4em;
+	}
+
+}
+
+@media only screen and (min-width: 1280px) {
+	
+	#logo-title {
+		background-image: none;
+	}
+	#title {
+		background-image: url('../image/bg_header_xl.png');
+		background-repeat: no-repeat;
+		background-size: auto 100%;
+		background-position:left bottom;
+
+		min-height: 150px;
+		/*background-position-y: -3.2em;*/		
+	}
+	#social-footer li {
+		display: inline-flex;
+		margin-right: 1em;
+	}
+}
+

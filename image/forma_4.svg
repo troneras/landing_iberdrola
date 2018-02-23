@@ -1,0 +1,12 @@
+<svg width="189" height="539" viewBox="0 0 189 539" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>forma</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-27982 -8224)">
+<g id="forma" opacity="0.083673">
+<use xlink:href="#path0_fill" transform="matrix(-0.848048 -0.529919 0.529919 -0.848048 27923.4 8864.09)" fill="#F5A623"/>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 67.5443 103.224C 78.0961 44.0321 155.844 28.6266 188.169 79.3222L 406.218 421.285C 434.233 465.22 402.676 522.769 350.569 522.769L 71.5601 522.769C 30.4747 522.769 -0.625956 485.634 6.58446 445.186L 67.5443 103.224Z"/>
+</defs>
+</svg>

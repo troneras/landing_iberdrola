@@ -1,0 +1,12 @@
+<svg width="446" height="1198" viewBox="0 0 446 1198" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Triangle 3 Copy</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-24498 -7408)">
+<g id="Triangle 3 Copy" opacity="0.083673">
+<use xlink:href="#path0_fill" transform="matrix(-0.848048 -0.529919 0.529919 -0.848048 24453.7 8605.5)" fill="#F5A623"/>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 142.417 54.4123C 152.978 -4.74832 230.673 -20.1595 263.016 30.4909L 768.756 822.503C 796.809 866.436 765.255 924.023 713.129 924.023L 66 924.023C 24.908 924.023 -6.19436 886.877 1.02719 846.424L 142.417 54.4123Z"/>
+</defs>
+</svg>

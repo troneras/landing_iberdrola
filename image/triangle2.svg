@@ -1,0 +1,12 @@
+<svg width="615" height="1133" viewBox="0 0 615 1133" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Triangle 3</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-25323 -7124)">
+<g id="Triangle 3" opacity="0.101789">
+<use xlink:href="#path0_fill" transform="matrix(0.707107 0.707107 -0.707107 0.707107 25870.7 7124.27)" fill="#8ABD37"/>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 349.673 34.9836C 373.581 -9.89802 437.127 -12.0195 463.975 31.1676L 816.766 598.658C 842.454 639.98 816.121 693.947 767.741 699.128L 73.0276 773.523C 20.3714 779.162 -17.1484 723.608 7.74913 676.869L 349.673 34.9836Z"/>
+</defs>
+</svg>
